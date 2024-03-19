@@ -277,7 +277,7 @@ header {
     height: auto;
 }
 .vertical-line {
-    border-left: 1px solid #B982FF;
+    border-left: 1px solid #5a2f91;
     height: auto;
     margin-right:40px;
     margin-left: 40px; 
@@ -549,6 +549,7 @@ header {
 .footer-links p {
     margin: 5px 0;
     color: #fff;
+    font-size: 11px;
 }
 
 
@@ -599,8 +600,9 @@ header {
     justify-content: space-between;
     text-align: left;
     position: relative;
-    background: linear-gradient(to right, #332d75, #1f1e1e);
-
+    background: linear-gradient(to right, #332d75, #1f1e1e) padding-box,
+    linear-gradient(to right, #453f91, #5f5e5e) border-box;
+    border: 1px solid transparent;
 }
 .name-chip {
     width: 100%;
@@ -791,7 +793,7 @@ header {
     padding: 10px;
     border: none;
     border-radius: 5px 0 0 5px;
-    font-size: 16px;
+    font-size: 14px;
     outline: none;
     background-color: #505050;
 }
@@ -807,8 +809,8 @@ header {
     color: #fff;
 }
 .powered-by img{
-    width:400px;
-    height: 13px;
+    width:450px;
+    height: 14px;
 }
 .social-icons {
     display: flex;
@@ -862,7 +864,7 @@ header {
         height: 200px;
     }
     .frame-contents img {
-        max-width: 80%;
+        max-width: 90%;
     }
     .speakers {
         flex-direction: column;
@@ -884,7 +886,7 @@ header {
     .news-card {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
         overflow: hidden;
-        width: 100%;
+        width: 97%;
         height: auto;
         padding: 5px;
         margin-bottom: 20px;
